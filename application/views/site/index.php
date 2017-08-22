@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>xone - One page Parallax</title>
+        <title>MRios Marcenaria</title>
 
         <!-- plugins -->
         <link href="<?php echo base_url();?>assets/site/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,17 +32,13 @@
                 <div class="row">
                     <div class="col-sm-6 hidden-sm-down">
                         <ul class="list-inline">
-                            <li class="list-inline-item"><a href="#"><i class="ion-ios-telephone"></i> +01 555-5554</a></li>
-                            <li class="list-inline-item"><a href="#"><i class="ion-ios-email"></i> support@xone.com</a></li>
+                            <li class="list-inline-item"><a href="#"><i class="ion-ios-telephone"></i> (67) 3388-7625</a></li>
+                            <li class="list-inline-item"><a href="#"><i class="ion-ios-email"></i> contato@mriosmarcenaria.com.br</a></li>
                         </ul>
                     </div><!--top left col end-->
                     <div class="col-sm-6 text-right">
                         <ul class="list-inline top-socials">
-                            <li class="list-inline-item"><a href="#"><i class="ion-social-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="ion-social-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="ion-social-linkedin"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="ion-social-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/mrios.marcenaria" target="_blank"><i class="ion-social-facebook"></i></a></li>
                         </ul>
                     </div><!--top social col end-->
                 </div><!--row-->
@@ -51,15 +47,18 @@
         <!--top bar end-->
         <section id="home" class="intro-ytp">
             <div class="video-overlay"></div>
-            <div id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=668nUCeBHyY',containment:'#home',showControls:false,autoPlay:true,loop:true,mute:true, startAt:1, opacity:1,quality:'default'}"></div>
+            <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/JGtj0g1iqPE',containment:'#home',showControls:false,autoPlay:true,loop:true,mute:true, startAt:1, opacity:1,quality:'default'}"></div>
             <div class="hero-inner">
                 <div class="hero-content">
                     <div class="container text-center">
+                        <div>
+                            <img src="<?php echo base_url();?>assets/site/images/logo_grande.png" style="width: 160px;" />
+                        </div>
                         <div class="flexslider">
                             <ul class="slides">
-                                <li><h1>we are <span class="text-color">xone</span></h1><p>Minimal One Page Template</p></li>
-                                <li><h1>Pixel perfect <span class="text-color">design</span></h1> <p>Smooth parallax effects</p></li>
-                                <li><h1>digital <span class="text-color">agency</span> </h1><p>This text easy to change</p></li>
+                                <li><h1>Eficiência e <span class="text-color">design</span></h1><p>Movéis pensados exclusivamente para você</p></li>
+                                <li><h1>Entregas no  <span class="text-color">prazo</span></h1><p>Transformando o seu <b>sonho</b> em realidade</p></li>
+                                <li><h1>Ambientes <span class="text-color">planejados</span></h1></li>
                             </ul><!--slides-->
                         </div><!--flex slider-->
                     </div><!--container-->
@@ -75,15 +74,15 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="<?php echo base_url();?>assets/site/images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/site/images/logo_grande.png" alt="logo" style="width: 50px;"></a>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto scroll-to">
                         <li class="nav-item"><a data-scroll href="#home" class="nav-link active">Home</a></li>
-                        <li class=" nav-item"><a data-scroll href="#agency" class="nav-link">Agency</a></li>
-                        <li class=" nav-item"><a data-scroll href="#services" class="nav-link">Services</a></li>
+                        <li class=" nav-item"><a data-scroll href="#agency" class="nav-link">Sobre</a></li>
+                        <li class=" nav-item"><a data-scroll href="#services" class="nav-link">Serviços</a></li>
                         <li class=" nav-item"><a data-scroll href="#work" class="nav-link">Portfolio</a></li>
-                        <li class=" nav-item"><a data-scroll href="#contact" class="nav-link">contact</a></li>
+                        <li class=" nav-item"><a data-scroll href="#contact" class="nav-link">Contato</a></li>
                         <li class="dropdown nav-item">
                             <span class="dropdown-toggle menu-drop-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</span>
                             <ul class="dropdown-menu dropdown-menu-right">
@@ -104,15 +103,14 @@
         <section id="agency">
             <div class="space-100"></div>
             <div class="container">
-                <h2 class="center-title scrollReveal sr-bottom">Who we are</h2>
+                <h2 class="center-title scrollReveal sr-bottom">Quem nós somos</h2>
                 <div class="center-border"></div>
                 <div class="space-40"></div>
                 <div>
                     <!-- Nav tabs -->
                     <ul class="list-inline text-center about-tabs justify-content-center nav margin-b-40" role="tablist">
-                        <li role="presentation" class="nav-item"><a class="nav-link active" href="#about-agency" aria-controls="about-agency" role="tab" data-toggle="tab">About</a></li>
-                        <li role="presentation" class=" nav-item"><a class="nav-link" href="#skills" aria-controls="skills" role="tab" data-toggle="tab">Skills</a></li>
-                        <li role="presentation" class=" nav-item"><a class="nav-link" href="#process" aria-controls="process" role="tab" data-toggle="tab">Process</a></li>
+                        <li role="presentation" class="nav-item"><a class="nav-link active" href="#about-agency" aria-controls="about-agency" role="tab" data-toggle="tab">Sobre nós</a></li>
+                        <li role="presentation" class=" nav-item"><a class="nav-link" href="#process" aria-controls="process" role="tab" data-toggle="tab">Processo de criação</a></li>
                     </ul>
 
                     <!-- Tab panes -->
@@ -121,42 +119,18 @@
                             <div class="row">
                                 <div class="col-md-8 offset-md-2 text-center">
                                     <p class="lead">
-                                        We are <span class="text-color">Minimal Web agency</span> based In Sydney. We create awesome stuff for web & App Designs. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                        Com mais de <span class="text-color">10 anos</span> de mercado a MRios Marcenaria é referência em produção de móveis planejados de alto padrão. A relação com os profissionais da área também é uma das grandes preocupações da empresa. Para que sempre tenhamos um bom relacionamento e principalmente um bom entendimento das necessidades locais, realizamos reuniões mensais de forma descontraída com arquitetos, decoradores, engenheiros e designers.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="skills">
-                            <div class="col-md-8 offset-md-2 text-center">
-                                <div class="progress clearfix">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                        <span class="skill-name">HTML5 / CSS3</span>  <span class="float-right value">80%</span>
-                                    </div>
-                                </div><!--progress bar-->
-                                <div class="progress clearfix">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                        <span class="skill-name">Photoshop</span>  <span class="float-right value">70%</span>
-                                    </div>
-                                </div><!--progress bar-->
-                                <div class="progress clearfix">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                        <span class="skill-name">Jquery</span>  <span class="float-right value">90%</span>
-                                    </div>
-                                </div><!--progress bar-->
-                                <div class="progress clearfix">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:97%">
-                                        <span class="skill-name">Tea</span>  <span class="float-right value">97%</span>
-                                    </div>
-                                </div><!--progress bar-->
-                            </div>
-                        </div><!--tab panel end-->
                         <div role="tabpanel" class="tab-pane" id="process">
                             <div class="row">
                                 <div class="col-md-3 col-sm-6 margin-b-30">
                                     <div class="process-box">
                                         <h2><span class="text-color">1.</span> idea</h2>
                                         <p>
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            Primeiro sentamos para discutir a ideia e elaboramos lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget suscipit neque, et feugiat nunc. Ut rutrum diam in tellus gravida viverra eu ut erat. Vivamus feugiat suscipit ex ut mattis.
                                         </p>
                                     </div>
                                 </div>
@@ -164,23 +138,23 @@
                                     <div class="process-box">
                                         <h2><span class="text-color">2.</span> Design</h2>
                                         <p>
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            Primeiro sentamos para discutir a ideia e elaboramos lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget suscipit neque, et feugiat nunc. Ut rutrum diam in tellus gravida viverra eu ut erat. Vivamus feugiat suscipit ex ut mattis
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 margin-b-30">
                                     <div class="process-box">
-                                        <h2><span class="text-color">3.</span> Develop</h2>
+                                        <h2><span class="text-color">3.</span> Desenvolvimento</h2>
                                         <p>
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            Primeiro sentamos para discutir a ideia e elaboramos lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget suscipit neque, et feugiat nunc. Ut rutrum diam in tellus gravida viverra eu ut erat. Vivamus feugiat suscipit ex ut mattis
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 margin-b-30">
                                     <div class="process-box">
-                                        <h2><span class="text-color">4.</span> Launch</h2>
+                                        <h2><span class="text-color">4.</span> Montagem</h2>
                                         <p>
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            Primeiro sentamos para discutir a ideia e elaboramos lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget suscipit neque, et feugiat nunc. Ut rutrum diam in tellus gravida viverra eu ut erat. Vivamus feugiat suscipit ex ut mattis
                                         </p>
                                     </div>
                                 </div>
@@ -195,9 +169,9 @@
 
 
         <!-- Parallax -->
-        <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
+        <div class="dzsparallaxer auto-init" data-options='{direction: "reverse"}' style="height: 350px;">
 
-            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(assets/site/assets/images/bg-2.jpg)">
+            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(<?php echo base_url();?>assets/site/images/bg-2.jpg)">
             </div>
             <div class=" parallax-text text-center center-it">
                 <h2>" A Super Simple Minimal One Page for Creative & Small Agencies "</h2>
@@ -283,7 +257,7 @@
         <!--video tour-->
         <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
 
-            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(assets/site/images/bg-2.jpg)">
+            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(<?php echo base_url();?>assets/site/images/bg-2.jpg)">
             </div>
             <div class=" parallax-text text-center center-it">
                 <h2>Take a video tour</h2>
@@ -378,7 +352,7 @@
         <!-- Parallax -->
         <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
 
-            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(assets/images/bg-3.jpg)">
+            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(<?php echo base_url();?>assets/site/images/bg-3.jpg)">
             </div>
             <div class=" parallax-text text-center center-it">
                 <div class="testi-slider">

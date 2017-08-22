@@ -174,97 +174,10 @@
             <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(<?php echo base_url();?>assets/site/images/bg-2.jpg)">
             </div>
             <div class=" parallax-text text-center center-it">
-                <h2>" A Super Simple Minimal One Page for Creative & Small Agencies "</h2>
+                <h2>" Aquele que trabalha é o homem feliz. O homem que é ocioso é o homem infeliz. "</h2>
             </div>
         </div>
         <!-- End Parallax -->
-
-        <!--our team start-->
-        <div class="team-wrapper">
-            <div class="space-100"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 margin-b-30">
-                        <div class="person-col scrollReveal sr-bottom sr-ease-in-out-quad sr-delay-1">
-                            <img src="<?php echo base_url();?>assets/site/images/team1.png" alt="" class="img-fluid">
-                            <div class="person-overlay">
-                                <div class="person-inner">
-                                    <h4 class="text-uppercase">Carlos Smith</h4>
-                                    <span>Project Manager</span>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div><!--person overlay end-->
-                        </div><!--person col end-->
-                    </div><!--col-->
-                    <div class="col-md-6 col-lg-3 margin-b-30">
-                        <div class="person-col person-col scrollReveal sr-bottom sr-ease-in-out-quad sr-delay-2">
-                            <img src="<?php echo base_url();?>assets/site/images/team2.png" alt="" class="img-fluid">
-                            <div class="person-overlay">
-                                <div class="person-inner">
-                                    <h4 class="text-uppercase">Emily Doe</h4>
-                                    <span>Cms-Developer</span>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div><!--person overlay end-->
-                        </div><!--person col end-->
-                    </div><!--col-->
-                    <div class="col-md-6 col-lg-3 margin-b-30">
-                        <div class="person-col person-col scrollReveal sr-bottom sr-ease-in-out-quad sr-delay-3">
-                            <img src="<?php echo base_url();?>assets/site/images/team3.png" alt="" class="img-fluid">
-                            <div class="person-overlay">
-                                <div class="person-inner">
-                                    <h4 class="text-uppercase">Emily Doe</h4>
-                                    <span>Co-founder</span>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div><!--person overlay end-->
-                        </div><!--person col end-->
-                    </div><!--col-->
-                    <div class="col-md-6 col-lg-3 margin-b-30">
-                        <div class="person-col person-col scrollReveal sr-bottom sr-ease-in-out-quad sr-delay-4">
-                            <img src="<?php echo base_url();?>assets/site/images/team4.png" alt="" class="img-fluid">
-                            <div class="person-overlay">
-                                <div class="person-inner">
-                                    <h4 class="text-uppercase">John Doe</h4>
-                                    <span>UI / UX Designer</span>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="ion-social-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div><!--person overlay end-->
-                        </div><!--person col end-->
-                    </div><!--col-->
-                </div><!--row-->
-            </div>
-            <div class="space-70"></div>
-        </div>
-        <!--our team end-->
-
-        <!--video tour-->
-        <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
-
-            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(<?php echo base_url();?>assets/site/images/bg-2.jpg)">
-            </div>
-            <div class=" parallax-text text-center center-it">
-                <h2>Take a video tour</h2>
-                <a href="#" class="video-link" data-toggle="modal" data-target="#video-popup"><i class="ion-ios-play-outline"></i></a>
-            </div>
-        </div>
-        <!--end vide tour-->
 
         <!--start services-->
         <section id="services">
@@ -272,7 +185,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 margin-b-50">
-                        <h2 class="center-title">What we do</h2>
+                        <h2 class="center-title">Como nós trabalhamos</h2>
                         <div class="center-border"></div>
                     </div>
                 </div><!--row end-->
@@ -285,16 +198,16 @@
                                 <div class="content">
                                     <h4>Marketing</h4>
                                     <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                        É um fato há muito estabelecido que um leitor será distraído pelo conteúdo legível de uma página ao olhar seu layout.
                                     </p>
                                 </div>
                             </li><!--service col end with li-->
                             <li class="col-md-6 clearfix  scrollReveal sr-bottom sr-delay-1">
                                 <i class="ion-images"></i>
                                 <div class="content">
-                                    <h4>Web Design</h4>
+                                    <h4>Design</h4>
                                     <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                        É um fato há muito estabelecido que um leitor será distraído pelo conteúdo legível de uma página ao olhar seu layout.
                                     </p>
                                 </div>
                             </li><!--service col end with li-->
@@ -303,7 +216,7 @@
                                 <div class="content">
                                     <h4>E-commerce</h4>
                                     <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                        É um fato há muito estabelecido que um leitor será distraído pelo conteúdo legível de uma página ao olhar seu layout.
                                     </p>
                                 </div>
                             </li><!--service col end with li-->
@@ -312,7 +225,7 @@
                                 <div class="content">
                                     <h4>Web Development</h4>
                                     <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                        É um fato há muito estabelecido que um leitor será distraído pelo conteúdo legível de uma página ao olhar seu layout.
                                     </p>
                                 </div>
                             </li><!--service col end with li-->
@@ -321,7 +234,7 @@
                                 <div class="content">
                                     <h4>Free Support</h4>
                                     <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                        É um fato há muito estabelecido que um leitor será distraído pelo conteúdo legível de uma página ao olhar seu layout.
                                     </p>
                                 </div>
                             </li><!--service col end with li-->
@@ -330,7 +243,7 @@
                                 <div class="content">
                                     <h4>App Development</h4>
                                     <p>
-                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                        É um fato há muito estabelecido que um leitor será distraído pelo conteúdo legível de uma página ao olhar seu layout.
                                     </p>
                                 </div>
                             </li><!--service col end with li-->
@@ -338,131 +251,11 @@
                     </div>
                 </div><!--row end-->
                 <hr>
-                <div class="space-60"></div>
-                <div class="text-center scrollReveal sr-bottom">
-                    <h1 class="margin-b-20">Want to work with us</h1>
-                    <a href="#" class="btn btn-dark-border btn-lg">Our Portfolio</a>
-                </div>
             </div>
         </section>
         <!--end services-->
 
         <div class="space-70"></div>
-
-        <!-- Parallax -->
-        <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
-
-            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(<?php echo base_url();?>assets/site/images/bg-3.jpg)">
-            </div>
-            <div class=" parallax-text text-center center-it">
-                <div class="testi-slider">
-                    <ul class="slides">
-                        <li>
-                            <i class="ion-quote"></i>
-                            <p>
-                                " Great work done. Very clean design and super easy code help me to launch my site quickly. "
-                            </p>
-                            <h5>John Doe</h5>
-                        </li><!--li-->
-                        <li>
-                            <i class="ion-quote"></i>
-                            <p>
-                                " A super clean full pack one page theme. great work. "
-                            </p>
-                            <h5>Emily</h5>
-                        </li><!--li-->
-                        <li>
-                            <i class="ion-quote"></i>
-                            <p>
-                                " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
-                            </p>
-                            <h5>Alex</h5>
-                        </li><!--li-->
-                    </ul>
-                </div>
-            </div><!--parallax text-->
-        </div>
-        <!-- End Parallax -->
-
-
-        <!--pricing start-->
-        <section class="pricing-wrapper">
-            <div class="container">
-                <div class="row flex-box">
-                    <div class="col-md-4 d-flex align-middle margin-b-30">
-                        <div class="price-box scrollReveal sr-scaleDown sr-ease-in-out-back">
-                            <h3>Starter</h3>
-                            <h1><sup>$</sup> 6</h1>
-                            <ul class="list-unstyled">
-                                <li>6 Months Support</li>
-                                <li>2 Demos</li>
-                                <li>Mailchimp Form</li>
-                                <li>Php Contact Form</li>
-                                <li>1 Domain</li>
-                            </ul>
-                            <div class="price-footer">
-                                <a href="#" class="btn btn-lg btn-dark-border">Buy Now</a>
-                            </div>
-                        </div><!--price box-->
-                    </div><!--price col-->
-                    <div class="col-md-4 d-flex  align-middle margin-b-30">
-                        <div class="price-box  scrollReveal sr-scaleDown sr-ease-in-out-back sr-delay-1">
-                            <h3>Business</h3>
-                            <span class="best-label">Best Value</span>
-                            <h1><sup>$</sup> 21</h1>
-                            <ul class="list-unstyled">
-                                <li>12 Months Support</li>
-                                <li>10 Demos</li>
-                                <li>Mailchimp Form</li>
-                                <li>Php Contact Form</li>
-                                <li>5 Domain</li>
-                            </ul>
-                            <div class="price-footer">
-                                <a href="#" class="btn btn-lg btn-dark-border">Buy Now</a>
-                            </div>
-                        </div><!--price box-->
-                    </div><!--price col-->
-                    <div class="col-md-4 d-flex  align-middle margin-b-30">
-                        <div class="price-box scrollReveal sr-scaleDown sr-ease-in-out-back sr-delay-2">
-                            <h3>Advanced</h3>
-                            <h1><sup>$</sup> 49</h1>
-                            <ul class="list-unstyled">
-                                <li>Unlimited Support</li>
-                                <li>20 Demos</li>
-                                <li>Mailchimp Form</li>
-                                <li>Php Contact Form</li>
-                                <li>Unlimited Domain</li>
-                            </ul>
-                            <div class="price-footer">
-                                <a href="#" class="btn btn-lg btn-dark-border">Buy Now</a>
-                            </div>
-                        </div><!--price box-->
-                    </div><!--price col-->
-                </div>
-
-                <div class="row scrollReveal sr-bottom sr-delay-2">
-                    <div class="col-md-8 offset-md-2 text-center">
-                        <p class="margin-b-30">Get the latest offer from us <a data-toggle="collapse"  href="#newsletter" aria-expanded="false" aria-controls="newsletter">Subscribe</a></p>
-                        <div class="collapse" id="newsletter">
-                            <div class="newsletter-form">
-                                <form role="form" method="post" action="#" class="subscribe-form  xone-newsletter">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="email" placeholder="Enter email to subscribe">
-                                    </div>
-                                    <div>
-                                        <button class="btn btn-skin-border btn-lg" name="submit" type="submit">Notify me</button>
-                                    </div>                          
-                                </form>
-
-                            </div>
-                        </div>
-                    </div>
-                </div><!--row-->
-            </div><!--container-->
-        </section>
-        <!--pricing end-->
-
-        <div class="space-50"></div>
 
         <!--portfolio start-->
         <section id="work">
@@ -470,26 +263,26 @@
                 <div class="container">
                     <h2 class="center-title person-col">Portfolio</h2>
                     <div class="center-border"></div>
-                    <p class="text-center margin-b-20">Present your work in beautiful way </p>
+                    <p class="text-center margin-b-20">Transformando sonhos em realidade </p>
                 </div>
             </div><!--work header-->
             <!--filter start-->
             <div class="container">  
                 <div id="js-filters-awesome-work" class="cbp-l-filters-work">
                     <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-                        SHOW ALL
+                        Todos
                     </div>
                     <div data-filter=".identity" class="cbp-filter-item">
-                        IDENTITY <div class="cbp-filter-counter"></div>
+                        Cozinhas <div class="cbp-filter-counter"></div>
                     </div>
                     <div data-filter=".web-design" class="cbp-filter-item">
-                        WEB DESIGN <div class="cbp-filter-counter"></div>
+                        Quartos <div class="cbp-filter-counter"></div>
                     </div>
                     <div data-filter=".graphic" class="cbp-filter-item">
-                        GRAPHIC <div class="cbp-filter-counter"></div>
+                        Banheiros <div class="cbp-filter-counter"></div>
                     </div>
                     <div data-filter=".logos" class="cbp-filter-item">
-                        LOGO <div class="cbp-filter-counter"></div>
+                        Salas <div class="cbp-filter-counter"></div>
                     </div>
                 </div><!--filter nav end-->
 
@@ -501,8 +294,8 @@
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                         </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                        <div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
+                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
+                        <div class="cbp-l-grid-work-desc">Cozinha</div>
                     </div><!--work item-->
                     <div class="cbp-item web-design logos">
                         <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project2.html" class="cbp-caption cbp-singlePage" rel="nofollow">
@@ -511,8 +304,8 @@
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                         </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project2.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                        <div class="cbp-l-grid-work-desc">Logo / Web Design</div>
+                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
+                        <div class="cbp-l-grid-work-desc">Cozinha</div>
                     </div><!--work item-->
                     <div class="cbp-item graphic logos">
                         <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project3.html" class="cbp-caption cbp-singlePage" rel="nofollow">
@@ -521,8 +314,8 @@
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                         </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project3.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                        <div class="cbp-l-grid-work-desc">Graphic / Logo</div>
+                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
+                        <div class="cbp-l-grid-work-desc">Cozinha</div>
                     </div><!--work item-->
                     <div class="cbp-item web-design graphic">
                         <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project4.html" class="cbp-caption cbp-singlePage" rel="nofollow">
@@ -531,8 +324,8 @@
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                         </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project4.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                        <div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
+                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
+                        <div class="cbp-l-grid-work-desc">Cozinha</div>
                     </div><!--work item-->
                     <div class="cbp-item identity web-design">
                         <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project5.html" class="cbp-caption cbp-singlePage" rel="nofollow">
@@ -541,8 +334,8 @@
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                         </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project5.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                        <div class="cbp-l-grid-work-desc">Web Design / Identity</div>
+                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
+                        <div class="cbp-l-grid-work-desc">Cozinha</div>
                     </div><!--work item-->
                     <div class="cbp-item identity web-design">
                         <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project6.html" class="cbp-caption cbp-singlePage" rel="nofollow">
@@ -551,68 +344,30 @@
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                         </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project6.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
-                        <div class="cbp-l-grid-work-desc">Identity / Web Design</div>
+                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
+                        <div class="cbp-l-grid-work-desc">Cozinha</div>
                     </div><!--work item-->
                 </div><!--grid end-->
 
                 <div id="js-loadMore-awesome-work" class="cbp-l-loadMore-button">
                     <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/loadMore.html" class="cbp-l-loadMore-link" rel="nofollow">
-                        <span class="cbp-l-loadMore-defaultText">LOAD MORE</span>
-                        <span class="cbp-l-loadMore-loadingText">LOADING...</span>
-                        <span class="cbp-l-loadMore-noMoreLoading">NO MORE WORKS</span>
+                        <span class="cbp-l-loadMore-defaultText">Carregar Mais</span>
+                        <span class="cbp-l-loadMore-loadingText">Carregando...</span>
+                        <span class="cbp-l-loadMore-noMoreLoading">Não existem mais imagens</span>
                     </a>
                 </div><!--work load more-->               
             </div><!--container end-->
         </section>
         <!--portfolio end-->
         <div class="space-100"></div>
-        <!--partners-->
-        <section class="partners">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2 col-md-4 col-xs-6 scrollReveal sr-bottom">
-                        <a href="#">
-                            <img src="<?php echo base_url();?>assets/site/images/cl-1.png" alt="" class="img-fluid">
-                        </a>
-                    </div><!--partner col-->
-                    <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-1">
-                        <a href="#">
-                            <img src="<?php echo base_url();?>assets/site/images/cl-2.png" alt="" class="img-fluid">
-                        </a>
-                    </div><!--partner col-->
-                    <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-2">
-                        <a href="#">
-                            <img src="<?php echo base_url();?>assets/site/images/cl-3.png" alt="" class="img-fluid">
-                        </a>
-                    </div><!--partner col-->
-                    <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-3">
-                        <a href="#">
-                            <img src="<?php echo base_url();?>assets/site/images/cl-4.png" alt="" class="img-fluid">
-                        </a>
-                    </div><!--partner col-->
-                    <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-4">
-                        <a href="#">
-                            <img src="<?php echo base_url();?>assets/site/images/cl-1.png" alt="" class="img-fluid">
-                        </a>
-                    </div><!--partner col-->
-                    <div class="col-lg-2 col-md-4 col-xs-6  scrollReveal sr-bottom sr-delay-5">
-                        <a href="#">
-                            <img src="<?php echo base_url();?>assets/site/images/cl-2.png" alt="" class="img-fluid">
-                        </a>
-                    </div><!--partner col-->
-                </div>
-            </div>
-        </section>
-        <!--end partners-->
-
+        <hr>    
         <!--contact start-->
         <section id="contact" class="contact-section">
             <div class="space-100"></div>
             <div class="container">
                 <div class="row margin-b-50">
                     <div class="col-sm-12 scrollReveal sr-bottom">
-                        <h2 class="center-title">Say Hello!</h2>
+                        <h2 class="center-title">Fale conosco</h2>
                         <div class="center-border"></div>
                     </div>
                 </div><!--row-->
@@ -622,14 +377,14 @@
                             <div class="row">
                                 <div class="col-sm-12">                                 
                                     <div class=" margin-b-20">
-                                        <input type="text" name="name" class="form-control" placeholder="Full Name...." />
+                                        <input type="text" name="name" class="form-control" placeholder="Nome completo...." />
                                     </div>
                                     <div class=" margin-b-20">
-                                        <input type="text" name="email" class="form-control" placeholder="Email Address...." />
+                                        <input type="text" name="email" class="form-control" placeholder="E-mail...." />
                                     </div>                          
                                 </div>
                                 <div class="col-sm-12">
-                                    <textarea name="message" class="form-control margin-b-20" rows="5" placeholder="Message...."></textarea>                                  
+                                    <textarea name="message" class="form-control margin-b-20" rows="5" placeholder="Menssagem...."></textarea>                                  
                                 </div>
                             </div>
                             <div class="row">
@@ -639,15 +394,15 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 text-center">
-                                    <button type="submit" name="submit" class="btn btn-lg btn-skin-border btn-block margin-b-20">Send Message</button>
+                                    <button type="submit" name="submit" class="btn btn-lg btn-skin-border btn-block margin-b-20">Enviar Menssagem</button>
                                 </div>
                             </div>
                         </form><!--form end-->
                     </div><!--form col end-->
                     <div class="col-md-5 offset-md-1 scrollReveal sr-right sr-delay-1">
                         <div class="contact-details">
-                            <p class="lead">Lorem Ipsum Street, <br> Park Ave.<br>(245) 485-493</p>
-                            <p class="lead"><a href="#">hello@xone.com</a></p>
+                            <p class="lead">Rua da Divisão,  175<br> Parati.<br>(67) 99221-7861</p>
+                            <p class="lead"><a href="#">contato@mriosmarcenaria.com.br</a></p>
                             <ul class="list-inline">
                                 <li class="list-inline-item"><a href="#"><i class="ion-social-facebook-outline"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="ion-social-twitter-outline"></i></a></li>
@@ -663,7 +418,9 @@
             <!-- Google Map -->
             <section id="map">            
                 <!-- Google Map ID -->
-                <div id="google-map" style="width: 100%; height: 400px;"></div>
+                <div style="width: 100%; height: 400px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.3227365194116!2d-54.63186198507557!3d-20.533971886268493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e5749342cef1%3A0x2105badb158105c2!2sR.+da+Divis%C3%A3o%2C+475+-+Jardim+Parati%2C+Campo+Grande+-+MS!5e0!3m2!1spt-BR!2sbr!4v1503434792147" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </section>
             <!-- End Google Map -->
         </section>
@@ -675,38 +432,21 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="col-md-5 margin-b-30">
-                        <span>&copy; Copyright 2017. xone by Design_mylife</span>
+                        <span style="font-size:8px">&copy; Copyright 2017. xone by Design_mylife</span>
                     </div><!--copyright col-->
                     <div class="col-md-7 text-right">
                         <ul class="list-inline margin-b-30">
-                            <li class="list-inline-item"><a href="#">Home</a></li>
-                            <li class="list-inline-item"><a href="#">About</a></li>
-                            <li class="list-inline-item"><a href="#">News</a></li>
-                            <li class="list-inline-item"><a href="#">FAQ</a></li>
-                            <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+                            <li class="list-inline-item"><a href="#home">Home</a></li>
+                            <li class="list-inline-item"><a href="#agency">Sobre</a></li>
+                            <li class="list-inline-item"><a href="#services">Serviços</a></li>
+                            <li class="list-inline-item"><a href="#work">Portfolio</a></li>
+                            <li class="list-inline-item"><a href="#contact">Contato</a></li>
                         </ul>
                     </div><!--footer nav col-->
                 </div><!--row-->
             </div><!--container-->
         </footer>
         <!--footer end-->
-
-        <!--modal of video-->
-        <div class="modal video-modal fade" id="video-popup" tabindex="-1" role="dialog" aria-labelledby="video-popup">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="ion-close"></span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe id="vimeo-video" src="http://player.vimeo.com/video/57175742"></iframe>
-                        </div>
-                    </div><!--modal body-->
-                </div><!--modal content-->
-            </div><!--modal dialog-->
-        </div>
-        <!--end the modal of video-->
 
         <!--back to top-->
         <a href="#" class="scrollToTop"><i class="ion-android-arrow-dropup-circle"></i></a>

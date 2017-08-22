@@ -8,7 +8,7 @@ GOOGLE MAP
 
 			// Map Coordination
 
-			var latlng = new google.maps.LatLng(26.977530,75.692714);
+			var latlng = new google.maps.LatLng(-20.5339669,-54.631862);
 
 			// Map Options
 			var myOptions = {
@@ -33,7 +33,7 @@ GOOGLE MAP
 
 		  	// First Marker Coordination
 			
-			var myLatlng = new google.maps.LatLng(26.977530,75.692714);
+			var myLatlng = new google.maps.LatLng(-20.5339669,-54.631862);
 
 			// Your Texts 
 
@@ -56,7 +56,7 @@ GOOGLE MAP
 			var marker = new google.maps.Marker({
 				  position: myLatlng,
 				  map: map,
-				  title: 'Hello World!',
+				  title: 'MRios Marcenaria',
 				  icon: image
 			  });
 

@@ -431,9 +431,6 @@
         <footer class="footer">
             <div class="container">
                 <div class="row clearfix">
-                    <div class="col-md-5 margin-b-30">
-                        <span style="font-size:8px">&copy; Copyright 2017. xone by Design_mylife</span>
-                    </div><!--copyright col-->
                     <div class="col-md-7 text-right">
                         <ul class="list-inline margin-b-30">
                             <li class="list-inline-item"><a href="#home">Home</a></li>

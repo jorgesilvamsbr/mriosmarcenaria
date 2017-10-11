@@ -7,14 +7,15 @@
         <title>MRios Marcenaria</title>
 
         <!-- plugins -->
-        <link href="<?php echo base_url();?>assets/site/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="<?php echo base_url();?>assets/site/ionicons/css/ionicons.min.css" rel="stylesheet">        
-        <link href="<?php echo base_url();?>assets/site/bower_components/flexslider/flexslider.css" rel="stylesheet">
-        <link href="<?php echo base_url();?>assets/site/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css">
-        <link rel='stylesheet' type="text/css" href="<?php echo base_url();?>assets/site/dzsparallaxer/dzsparallaxer.css"/>
-        <link href="<?php echo base_url();?>assets/site/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/site/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/site/ionicons/css/ionicons.min.css" rel="stylesheet">        
+        <link href="<?php echo base_url(); ?>assets/site/bower_components/flexslider/flexslider.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/site/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css">
+        <link rel='stylesheet' type="text/css" href="<?php echo base_url(); ?>assets/site/dzsparallaxer/dzsparallaxer.css"/>
+        <link href="<?php echo base_url(); ?>assets/site/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
         <!--main css file-->
-        <link href="<?php echo base_url();?>assets/site/css/style.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/site/css/style.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.js"  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="  crossorigin="anonymous"></script>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -23,7 +24,7 @@
         <![endif]-->
     </head>
     <body data-spy="scroll">
-           <div id="preloader">
+        <div id="preloader">
             <div id="preloader-inner"></div>
         </div><!--/preloader-->
         <!--top bar start-->
@@ -34,6 +35,7 @@
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="#"><i class="ion-ios-telephone"></i> (67) 3388-7625</a></li>
                             <li class="list-inline-item"><a href="#"><i class="ion-ios-email"></i> contato@mriosmarcenaria.com.br</a></li>
+                            <li class="list-inline-item"><a href="<?php echo base_url(); ?>index.php/login">Administrativo</a></li>
                         </ul>
                     </div><!--top left col end-->
                     <div class="col-sm-6 text-right">
@@ -52,7 +54,7 @@
                 <div class="hero-content">
                     <div class="container text-center">
                         <div>
-                            <img src="<?php echo base_url();?>assets/site/images/logo_grande.png" style="width: 160px;" />
+                            <img src="<?php echo base_url(); ?>assets/site/images/logo_grande.png" style="width: 160px;" />
                         </div>
                         <div class="flexslider">
                             <ul class="slides">
@@ -74,7 +76,7 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/site/images/logo_grande.png" alt="logo" style="width: 50px;"></a>
+                <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/site/images/logo_grande.png" alt="logo" style="width: 50px;"></a>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto scroll-to">
@@ -83,15 +85,6 @@
                         <li class=" nav-item"><a data-scroll href="#services" class="nav-link">Serviços</a></li>
                         <li class=" nav-item"><a data-scroll href="#work" class="nav-link">Portfolio</a></li>
                         <li class=" nav-item"><a data-scroll href="#contact" class="nav-link">Contato</a></li>
-                        <li class="dropdown nav-item">
-                            <span class="dropdown-toggle menu-drop-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</span>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li><a class="dropdown-item" href="blog-standard.html">Blog Standard</a></li>
-                                <li><a class="dropdown-item" href="blog-masonry.html">Blog Masonry</a></li>
-                                <li><a class="dropdown-item" href="blog-single.html">blog-post</a></li>
-                                <li><a class="dropdown-item" href="typography.html">Typography</a></li>
-                            </ul>
-                        </li>
                     </ul>
 
                 </div>
@@ -171,7 +164,7 @@
         <!-- Parallax -->
         <div class="dzsparallaxer auto-init" data-options='{direction: "reverse"}' style="height: 350px;">
 
-            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(<?php echo base_url();?>assets/site/images/bg-2.jpg)">
+            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(<?php echo base_url(); ?>assets/site/images/bg-2.jpg)">
             </div>
             <div class=" parallax-text text-center center-it">
                 <h2>" Aquele que trabalha é o homem feliz. O homem que é ocioso é o homem infeliz. "</h2>
@@ -272,90 +265,51 @@
                     <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
                         Todos
                     </div>
-                    <div data-filter=".identity" class="cbp-filter-item">
-                        Cozinhas <div class="cbp-filter-counter"></div>
-                    </div>
-                    <div data-filter=".web-design" class="cbp-filter-item">
-                        Quartos <div class="cbp-filter-counter"></div>
-                    </div>
-                    <div data-filter=".graphic" class="cbp-filter-item">
-                        Banheiros <div class="cbp-filter-counter"></div>
-                    </div>
-                    <div data-filter=".logos" class="cbp-filter-item">
-                        Salas <div class="cbp-filter-counter"></div>
-                    </div>
+                    <?php foreach ($categorias as $categoria) { ?>
+                        <div data-filter=".<?php echo $categoria->nome; ?>" class="cbp-filter-item">
+                            <?php echo $categoria->nome; ?> <div class="cbp-filter-counter"></div>
+                        </div>
+                    <?php } ?>
                 </div><!--filter nav end-->
 
                 <div id="js-grid-awesome-work" class="cbp cbp-l-grid-work">
-                    <div class="cbp-item identity">
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="<?php echo base_url();?>assets/site/images/w1.jpg" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap"></div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
-                        <div class="cbp-l-grid-work-desc">Cozinha</div>
-                    </div><!--work item-->
-                    <div class="cbp-item web-design logos">
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project2.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="<?php echo base_url();?>assets/site/images/w2.jpg" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap"></div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
-                        <div class="cbp-l-grid-work-desc">Cozinha</div>
-                    </div><!--work item-->
-                    <div class="cbp-item graphic logos">
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project3.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="<?php echo base_url();?>assets/site/images/w3.jpg" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap"></div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
-                        <div class="cbp-l-grid-work-desc">Cozinha</div>
-                    </div><!--work item-->
-                    <div class="cbp-item web-design graphic">
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project4.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="<?php echo base_url();?>assets/site/images/w4.jpg" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap"></div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
-                        <div class="cbp-l-grid-work-desc">Cozinha</div>
-                    </div><!--work item-->
-                    <div class="cbp-item identity web-design">
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project5.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="<?php echo base_url();?>assets/site/images/w5.jpg" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap"></div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
-                        <div class="cbp-l-grid-work-desc">Cozinha</div>
-                    </div><!--work item-->
-                    <div class="cbp-item identity web-design">
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project6.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="<?php echo base_url();?>assets/site/images/w6.jpg" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap"></div>
-                        </a>
-                        <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Cozinha</a>
-                        <div class="cbp-l-grid-work-desc">Cozinha</div>
-                    </div><!--work item-->
-                </div><!--grid end-->
+                    <?php foreach ($itens as $item) { ?>
+                        <?php
+                        foreach ($categorias as $categoria) {
+                            if ($item->id_da_categoria == $categoria->id) {
+                                $nomeDaCategoria = $categoria->nome;
+                            }
+                        }
+                        ?>
+                        <div class="cbp-item <?php echo $nomeDaCategoria; ?>">
+                            <a href="<?php echo base_url(); ?>assets/site/ajax-awesome-work/detalhes.php" class="cbp-caption cbp-singlePage" onclick="setaIdParaDetalharItem(<?php echo $item->id; ?>, '<?php echo $nomeDaCategoria; ?>');">
+                                <div class="cbp-caption-defaultWrap">
+                                    <img src="<?php echo base_url(); ?>assets/admin/img/portfolio/<?php echo $nomeDaCategoria . '/' . $item->nome_da_imagem; ?>" >
+                                </div>
+                                <div class="cbp-caption-activeWrap"></div>
+                            </a>
+                            <a href="<?php echo base_url(); ?>assets/site/ajax-awesome-work/project1.php" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow"></a>
+                            <div class="cbp-l-grid-work-desc"><?php echo $nomeDaCategoria; ?></div>
+                        </div><!-- work item -->
+<?php } ?>
+                    <script>
+                            function setaIdParaDetalharItem(idDoItem, categoria) {
+                                $.get('<?php echo base_url()?>index.php/home/obterImagensDoItem?id=' + idDoItem, function(response){
+                                    window.listaDeImagens = response;
+                                    window.urlBase = "<?php echo base_url()?>";
+                                    window.categoria = categoria;
+                                });
+                            }
+                    </script>
+                </div><!-- grid end -->
 
-                <div id="js-loadMore-awesome-work" class="cbp-l-loadMore-button">
-                    <a href="<?php echo base_url();?>assets/site/ajax-awesome-work/loadMore.html" class="cbp-l-loadMore-link" rel="nofollow">
-                        <span class="cbp-l-loadMore-defaultText">Carregar Mais</span>
-                        <span class="cbp-l-loadMore-loadingText">Carregando...</span>
-                        <span class="cbp-l-loadMore-noMoreLoading">Não existem mais imagens</span>
-                    </a>
-                </div><!--work load more-->               
+                <!--                <div id="js-loadMore-awesome-work" class="cbp-l-loadMore-button">
+                                    <a href="<?php // echo base_url();  ?>assets/site/ajax-awesome-work/loadMore.html" class="cbp-l-loadMore-link" rel="nofollow">
+                                        <span class="cbp-l-loadMore-defaultText">Carregar Mais</span>
+                                        <span class="cbp-l-loadMore-loadingText">Carregando...</span>
+                                        <span class="cbp-l-loadMore-noMoreLoading">Não existem mais imagens</span>
+                                    </a>
+                                </div> work load more                -->
             </div><!--container end-->
         </section>
         <!--portfolio end-->
@@ -450,30 +404,25 @@
         <!--back to top end-->
 
         <!-- jQuery plugins-->
-        <script src="<?php echo base_url();?>assets/site/bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/bower_components/tether/dist/js/tether.min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/js/jquery-migrate.min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/js/jquery.easing.min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/bower_components/flexslider/jquery.flexslider-min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/js/modernizr.custom.97074.js" type="text/javascript"></script>
-        <script src="<?php echo base_url();?>assets/site/js/jquery.sticky.js"></script>
-        <script src="<?php echo base_url();?>assets/site/js/smooth-scroll.min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/js/jquery.preloader.min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>      
-        <script src="<?php echo base_url();?>assets/site/js/template-custom.js" type="text/javascript"></script>
-        <script src="<?php echo base_url();?>assets/site/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-        <script src="<?php echo base_url();?>assets/site/js/cube-awesome-work.js" type="text/javascript"></script>
-        <script src="<?php echo base_url();?>assets/site/js/scroll-reavel-custom.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/bower_components/tether/dist/js/tether.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/js/jquery-migrate.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/js/jquery.easing.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/bower_components/flexslider/jquery.flexslider-min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/js/modernizr.custom.97074.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/site/js/jquery.sticky.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/js/smooth-scroll.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/js/jquery.preloader.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>      
+        <script src="<?php echo base_url(); ?>assets/site/js/template-custom.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/site/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/js/cube-awesome-work.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/site/js/scroll-reavel-custom.js"></script>
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-        <script src="<?php echo base_url();?>assets/site/js/google-map.js"></script>
-        <script src="<?php echo base_url();?>assets/site/js/contact.js" type="text/javascript"></script>
-        <script src="<?php echo base_url();?>assets/site/yt-player/jquery.mb.YTPlayer.js" type="text/javascript"></script>
-        <script>
-            $(function () {
-                jQuery("#bgndVideo").YTPlayer();
-            });
-        </script>
+        <script src="<?php echo base_url(); ?>assets/site/js/google-map.js"></script>
+        <script src="<?php echo base_url(); ?>assets/site/js/contact.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/site/yt-player/jquery.mb.YTPlayer.js" type="text/javascript"></script>
     </body>
 </html>
